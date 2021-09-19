@@ -1,0 +1,92 @@
+html {
+  font-size: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', Arial, sans-serif;
+  background-color: #eee;
+  color: #333;
+  
+  --fontSize: 1.65rem;
+}
+
+#main {
+  background: #ece5e5;
+  margin: 30px 8px;
+}
+
+#img-div figure,
+.header,
+article,
+section,
+footer
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#title {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: var(--fontSize, 1.6rem);
+}
+
+#img-div {
+  background: white;
+  margin: 0 30px;
+}
+
+#image {
+  display: block;
+  max-width: 90%;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+#img-div figcaption {
+  padding: 20px 0;
+  font-size: var(--fontSize, 1.1rem);
+}
+
+article h3 {
+  font-size: 1.9rem;
+  margin: 35px 0;
+}
+
+ul {
+  width: 40%;
+  font-size: var(--fontSize, 1.1rem);
+}
+
+li {
+  font-size: var(--fontSize);
+  margin-bottom: 5px;
+  padding: 8px 0;
+  line-height: 1.7;
+  font-weight: 450;
+}
+
+time {
+  font-weight: bold;
+}
+
+.quote {
+  font-style: italic;
+  font-size: var(--fontSize, 1.1rem);
+  width: 42%;
+}
+
+.quote p {
+  align-self: flex-start;
+  margin-top: 5px;
+  margin-left: 40px;
+}
+
+footer p {
+  font-weight: bold;
+  font-size: 1.8rem;
+}
